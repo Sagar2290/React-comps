@@ -8,8 +8,8 @@ or
 
 # Comps
 
-This project showcase a single page app navigation through routing.\
+This project showcase a single page app navigation through routing.
 
-This app consist of a different reliable and reusable components with logic that can be reused and easy to work with.\
+This app consist of a different reliable and reusable components with logic that can be reused and easy to work with.
 
 This custom component's logic is centralized and can be use in whole project which ensures uniform design throughout the app.
