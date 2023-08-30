@@ -17,7 +17,9 @@ const reducer = (state, action) => {
       state.count = state.count - 1;
       return;
     case ADD_VALUE_TO_COUNT:
-      state.count = state.count + state.valueToAdd;
+      if (!isNaN(state.valueToAdd)) {
+        state.count = state.count + state.valueToAdd;
+      }
       state.valueToAdd = 0;
       return;
     case SET_VALUE_TO_ADD:
